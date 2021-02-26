@@ -12,14 +12,14 @@ body {
 
 h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 3rem;
+  font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
 }
 
 /* Nav Bar */
 .navbar {
-  padding-bottom: 4.5rem;
+  padding: 0 0 4.5rem;
 }
 
 .navbar-brand {
@@ -35,5 +35,18 @@ h1 {
 .nav-link {
   font-size: 1.2rem;
   font-family: 'Montserrat';
-  font-weight: 300;
+  font-weight: 400;
+}
+
+/* Download Button */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
 }
