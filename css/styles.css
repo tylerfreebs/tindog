@@ -18,6 +18,9 @@ h1 {
 }
 
 /* Nav Bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
 
 .navbar-brand {
   font-family: "Ubuntu";
@@ -25,6 +28,12 @@ h1 {
   font-weight: bold;
 }
 
-.navbar {
-  padding-bottom: 4.5rem;
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: 300;
 }
